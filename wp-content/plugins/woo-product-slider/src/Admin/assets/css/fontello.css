@@ -1,0 +1,267 @@
+@font-face {
+	font-family: 'sp-wps-fontello';
+	src: url('../font/fontello.eot?9168645');
+	src: url('../font/fontello.eot?9168645#iefix') format('embedded-opentype'),
+		url('../font/fontello.woff2?9168645') format('woff2'),
+		url('../font/fontello.woff?9168645') format('woff'),
+		url('../font/fontello.ttf?9168645') format('truetype'),
+		url('../font/fontello.svg?9168645#fontello') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?85024547#fontello') format('svg');
+  }
+}
+*/
+[class^="sp-wps-icon-"]:before,
+[class*=" sp-wps-icon-"]:before {
+	font-family: "sp-wps-fontello";
+	font-style: normal;
+	font-weight: normal;
+	speak: never;
+
+	display: inline-block;
+	text-decoration: inherit;
+	width: 1em;
+	margin-right: .2em;
+	text-align: center;
+	/* opacity: .8; */
+
+	/* For safety - reset parent styles, that can break glyph codes*/
+	font-variant: normal;
+	text-transform: none;
+
+	/* fix buttons height, for twitter bootstrap */
+	line-height: 1em;
+
+	/* Animation center compensation - margins should be symmetric */
+	/* remove if not needed */
+	margin-left: .2em;
+
+	/* you can be more comfortable with increased icons size */
+	/* font-size: 120%; */
+
+	/* Font smoothing. That was taken from TWBS */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	/* Uncomment for 3D effect */
+	/* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+	font-display:swap;
+}
+
+.sp-wps-icon-block:before {
+	content: '\e808';
+}
+
+/* '' */
+.sp-wps-icon-arrow-triangle-left:before {
+	content: '\e800';
+}
+
+.sp-wps-icon-right-open-1:before {
+	content: '\e802';
+}
+
+.sp-wps-icon-right-open-big:before {
+	content: '\e804';
+}
+
+.sp-wps-icon-right-open-outline:before {
+	content: '\e806';
+}
+
+.sp-wps-icon-right:before {
+	content: '\e807';
+}
+
+.sp-wps-icon-left-open-2:before {
+	content: '\e814';
+}
+
+.sp-wps-icon-right-open-3:before {
+	content: '\e816';
+}
+
+.sp-wps-icon-arrow-triangle-right:before {
+	content: '\e817';
+}
+
+.sp-wps-icon-left:before {
+	content: '\e818';
+}
+
+.sp-wps-icon-left-open-4:before {
+	content: '\e820';
+}
+
+.sp-wps-icon-left-open-outline:before {
+	content: '\e821';
+}
+
+.sp-wps-icon-right-open:before {
+	content: '\f006';
+}
+
+.sp-wps-icon-left-open:before {
+	content: '\f007';
+}
+
+.sp-wps-icon-right-open-big:before {
+	content: '\e804';
+}
+
+.sp-wps-icon-angle-left:before {
+	content: '\f104';
+}
+
+.sp-wps-icon-angle-right:before {
+	content: '\f105';
+}
+
+.sp-wps-icon-left-open-big:before {
+	content: '\e822';
+}
+
+.sp-wps-icon-miscellaneous:before {
+	content: '\e801';
+}
+
+/* '' */
+.sp-wps-icon-navigation:before {
+	content: '\e803';
+}
+
+/* '' */
+.sp-wps-icon-lightbox-general:before {
+	content: '\e805';
+}
+
+/* '' */
+.sp-wps-icon-block:before {
+	content: '\e809';
+}
+
+/* '' */
+.sp-wps-icon-image-and-thumbnail:before {
+	content: '\e80a';
+}
+
+/* '' */
+.sp-wps-icon-lightbox-icon:before {
+	content: '\e80b';
+}
+
+/* '' */
+.sp-wps-icon-left-open-4:before {
+	content: '\e80c';
+}
+
+/* '' */
+.sp-wps-icon-lightbox-toolbar:before {
+	content: '\e80f';
+}
+
+/* '' */
+.sp-wps-icon-lightbox-animation:before {
+	content: '\e810';
+}
+
+/* '' */
+.sp-wps-icon-pagination:before {
+	content: '\e811';
+}
+
+/* '' */
+.sp-wps-icon-detail-page:before {
+	content: '\e81f';
+}
+
+/* '' */
+.sp-wps-icon-typography:before {
+	content: '\e820';
+}
+
+/* '' */
+.sp-wps-icon-radius-01:before {
+	content: '\e82f';
+}
+
+/* '' */
+.sp-wps-icon-carousel-basic:before {
+	content: '\e830';
+}
+
+/* '' */
+.sp-wps-icon-navigation:before {
+	content: '\e833';
+}
+
+/* '' */
+.sp-wps-icon-pagination:before {
+	content: '\e834';
+}
+
+/* '' */
+.sp-wps-icon-border:before {
+	content: '\e835';
+}
+
+/* '' */
+.sp-wps-icon-basic-preferences:before {
+	content: '\e836';
+}
+
+/* '' */
+.sp-wps-icon-add-to-cart-button:before {
+	content: '\e837';
+}
+
+/* '' */
+.sp-wps-icon-template-styles:before {
+	content: '\e838';
+}
+
+/* '' */
+.sp-wps-icon-product-information:before {
+	content: '\e839';
+}
+
+/* '' */
+.sp-wps-icon-display-settings:before {
+	content: '\e83a';
+}
+
+/* '' */
+.sp-wps-icon-filter-settings:before {
+	content: '\e83b';
+}
+
+/* '' */
+.sp-wps-icon-live-filter-styles:before {
+	content: '\e83c';
+}
+
+/* '' */
+.sp-wps-icon-load-more-pagination:before {
+	content: '\e83d';
+}
+
+/* '' */
+.sp-wps-icon-product-badge:before {
+	content: '\e83e';
+}
+
+/* '' */
+.sp-wps-icon-content-1:before {
+	content: '\e825';
+}
+
+/* '' */
